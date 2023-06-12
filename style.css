@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------------------- First Navbar ----------------------*/
+
+.first-nav {
+  background: rgb(62, 84, 163);
+}
+
+.first-nav-anchor {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.first-nav-anchor:hover {
+  text-decoration: none;
+}
+
+.fa-square-pied-piper {
+  font-size: 50px;
+  color: rgb(62, 84, 163);
+}
+
+/*------------------------ Second Navbar ---------------------------*/
+
+.second-nav-link {
+  font-size: 13px;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.fa-github {
+  margin-left: 7px;
+  font-size: 20px;
+}
+
+.second-nav-span {
+  color: white;
+  background-color: rgb(62, 84, 163);
+  font-size: 9px;
+  padding: 5px;
+  font-style: normal;
+  align-items: center;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+/*------------------------ Third Navbar -----------------------------*/
+
+.third-navbar {
+  font-size: 14px;
+}
